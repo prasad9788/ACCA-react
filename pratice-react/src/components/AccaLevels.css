@@ -1,0 +1,41 @@
+/* src/AccaLevels.css */
+.acca-levels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .acca-levels h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .levels-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .level-box {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    margin: 1rem;
+    flex: 1;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .level-box h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .level-box p {
+    font-size: 1.25rem;
+  }
+  
